@@ -15805,7 +15805,7 @@ textarea.input100 {
   position: absolute;
   max-width: 70%;
   background-color: #fff;
-  border: 1px solid #c80000;
+  border: 1px solid red;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
   bottom: calc((100% - 34px) / 2);
@@ -15833,7 +15833,7 @@ textarea.input100 {
   font-family: FontAwesome;
   display: block;
   position: absolute;
-  color: #c80000;
+  color: red;
   font-size: 16px;
   bottom: calc((100% - 34px) / 2);
   -webkit-transform: translateY(50%);
@@ -15874,6 +15874,26 @@ textarea.input100 {
 
 ::placeholder {
   color: black;
+}
+
+.brdradius {
+  border-radius: 50%;
+}
+
+.brdgrey {
+  border: solid 1px white;
+}
+
+.bgred {
+  background: red;
+}
+
+.mok {
+  background-image: url("../../public/images/team_background.jpg");
+}
+
+footer {
+  background-color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
