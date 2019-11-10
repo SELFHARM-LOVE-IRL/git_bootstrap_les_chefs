@@ -7,6 +7,53 @@ $fa-font-path: "../../node_modules/@fortawesome/fontawesome-free/webfonts"
 $adil: red
 
 
+.banner
+  position: absolute
+  z-index: -1
+  filter: brightness(30%)
+  -webkit-filter: brightness(30%)
+nav
+ display: flex
+ flex-direction: row
+ align-items: center
+ margin-left: 150px
+.ul1
+  list-style: none
+  display: flex
+  flex-direction: row
+  margin: 10px
+  border-top: 2px white solid
+  border-bottom: 2px white solid
+.li1
+  margin: 10px
+  a
+   color: white
+   &:hover
+   background-color: red
+   padding: 13px
+
+.logo
+  flex-direction: row
+.ul2
+   list-style: none
+   display: flex
+   flex-direction: row
+   margin: 10px
+   border-top: 3px white solid
+   border-bottom: 3px white solid
+.li2
+  margin: 10px
+ 
+  &:hover
+  background-color: red
+  padding: 13px
+
+.carousel-inner
+  padding: 200px
+  text-align: center
+.carouse-item
+ 
+  font-size: 10px
 
 .sectionn
     background-image: url("../../public/images/main_bg.jpg")
@@ -367,7 +414,23 @@ textarea.input100
 .mok
   background-image: url('../../public/images/team_background.jpg')
 
+.badges
+  size: 40%
+
 footer
   background-color: $adil
   
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link
+  background: none
+
+.badge.badge-pill.badge-danger
+  font-size: 20px
+  padding: 10px
+  margin: 5px
+  border: 1px solid white
+
+.btn.btn-danger
+  border-radius: 30px
+  
+  
