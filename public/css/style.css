@@ -15863,7 +15863,7 @@ textarea.input100 {
   position: absolute;
   max-width: 70%;
   background-color: #fff;
-  border: 1px solid red;
+  border: 1px solid #CD0140;
   border-radius: 2px;
   padding: 4px 25px 4px 10px;
   bottom: calc((100% - 34px) / 2);
@@ -15891,7 +15891,7 @@ textarea.input100 {
   font-family: FontAwesome;
   display: block;
   position: absolute;
-  color: red;
+  color: #CD0140;
   font-size: 16px;
   bottom: calc((100% - 34px) / 2);
   -webkit-transform: translateY(50%);
@@ -15940,22 +15940,23 @@ textarea.input100 {
 
 .brdgrey {
   border: solid 1px white;
+  border-radius: 12px;
 }
 
 .bgred {
-  background: red;
+  background-image: url("../../public/images/main_bg.jpg");
+  background: #CD0140;
+  padding: 5%;
+  text-align: center;
+  border-radius: 25px;
 }
 
 .mok {
   background-image: url("../../public/images/team_background.jpg");
 }
 
-.badges {
-  size: 40%;
-}
-
 footer {
-  background-color: red;
+  background-color: #CD0140;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
@@ -15971,6 +15972,37 @@ footer {
 
 .btn.btn-danger {
   border-radius: 30px;
+}
+
+.mes {
+  border-radius: 15px;
+}
+
+.bgclient {
+  background-image: url("../../public/images/testimonials_background.jpg");
+  display: flex;
+}
+
+.haha {
+  position: relative;
+  bottom: 15px;
+}
+
+.xlass {
+  justify-content: space-between;
+}
+
+.h33 {
+  font-size: 20px;
+  color: #CD0140;
+}
+
+i {
+  color: white;
+}
+
+.rat {
+  background-image: url("../../public/images/main_bg.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
